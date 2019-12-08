@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 
 Route::get('/tasks', 'TasksController@index');
+Route::get('/tasks/create', 'TasksController@create');
