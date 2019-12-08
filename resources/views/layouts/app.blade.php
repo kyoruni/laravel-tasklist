@@ -28,7 +28,7 @@
         <!-- Contents -->
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-8 mt-2">
+                <div class="col-md-8 mx-auto mt-2">
                     @yield('content')
                 <div>
             </div>
