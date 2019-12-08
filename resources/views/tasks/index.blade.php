@@ -1,4 +1,6 @@
 @extends('layouts.app')
 @section('content')
-    tasks index
+    @foreach ($tasks as $task)
+        {{ $task->content }}
+    @endforeach
 @endsection
